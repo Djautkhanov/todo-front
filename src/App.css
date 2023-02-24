@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.form input {
+  width: 300px;
+  height: 28px;
+  border-radius: 6px;
+  padding-left: 5px;
+}
+.form button {
+  height: 33px;
+  margin-left: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.form button:hover {
+  height: 33px;
+  margin-left: 10px;
+  background-color: rgb(3, 3, 94);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.task-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 390px;
+  margin-top: 10px;
+}
+.task-block input {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.task-text {
+  width: 100%;
+  padding-left: 15px;
+}
+.task-block button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+.task-block button:active {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 22px;
+}
+.task-text-done {
+  width: 100%;
+  padding-left: 15px;
+  text-decoration: line-through;
+}
